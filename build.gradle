@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group "rm.api.search.cli"
+version "0.0.1"
+
+sourceCompatibility = 1.8
+
+application {
+    mainClassName = "rm.api.search.cli.RMApiSearchCLI"
+    applicationName = "rm-api-search-cli"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'com.beust', name: 'jcommander', version: '1.78'
+
+    implementation group: 'io.github.openfeign', name: 'feign-core', version: '10.6.0'
+    implementation group: 'io.github.openfeign', name: 'feign-gson', version: '10.6.0'
+
+    compileOnly 'org.projectlombok:lombok:1.18.16'
+    annotationProcessor 'org.projectlombok:lombok:1.18.16'
+}
