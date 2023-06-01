@@ -1,4 +1,4 @@
-package rm.api.search.cli.cli.validator;
+package rm.api.search.project.cli.validator;
 
 import com.beust.jcommander.IParameterValidator;
 import com.beust.jcommander.ParameterException;

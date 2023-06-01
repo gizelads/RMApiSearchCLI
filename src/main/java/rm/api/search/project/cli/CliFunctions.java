@@ -1,4 +1,4 @@
-package rm.api.search.cli.cli;
+package rm.api.search.project.cli;
 
 import java.util.HashMap;
 import java.util.Map;

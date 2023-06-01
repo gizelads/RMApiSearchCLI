@@ -1,9 +1,9 @@
-package rm.api.search.cli.api;
+package rm.api.search.project.api;
 
 import feign.Headers;
 import feign.QueryMap;
 import feign.RequestLine;
-import rm.api.search.cli.api.dto.CharacterListApiResponse;
+import rm.api.search.project.api.dto.CharacterListApiResponse;
 
 import java.util.Map;
 

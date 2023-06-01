@@ -1,11 +1,11 @@
-package rm.api.search.cli.cli;
+package rm.api.search.project.cli;
 
 import com.beust.jcommander.Parameter;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import rm.api.search.cli.cli.validator.CliHelpValidator;
-import rm.api.search.cli.cli.validator.CliKeywordValidator;
+import rm.api.search.project.cli.validator.CliHelpValidator;
+import rm.api.search.project.cli.validator.CliKeywordValidator;
 
 @Getter
 @ToString

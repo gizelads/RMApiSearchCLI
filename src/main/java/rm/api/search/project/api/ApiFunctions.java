@@ -1,4 +1,4 @@
-package rm.api.search.cli.api;
+package rm.api.search.project.api;
 
 import feign.Feign;
 import feign.gson.GsonDecoder;

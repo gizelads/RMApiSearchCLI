@@ -9,7 +9,7 @@ version "0.0.1"
 sourceCompatibility = 1.8
 
 application {
-    mainClassName = "rm.api.search.cli.RMApiSearchCLI"
+    mainClassName = "rm.api.search.project.RMApiSearchCLI"
     applicationName = "rm-api-search-cli"
 }
 

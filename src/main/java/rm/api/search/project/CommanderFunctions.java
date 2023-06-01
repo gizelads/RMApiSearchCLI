@@ -1,4 +1,4 @@
-package rm.api.search.cli;
+package rm.api.search.project;
 
 import com.beust.jcommander.JCommander;
 import com.beust.jcommander.ParameterException;

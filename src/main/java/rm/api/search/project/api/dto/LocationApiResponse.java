@@ -1,4 +1,4 @@
-package rm.api.search.cli.api.dto;
+package rm.api.search.project.api.dto;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
