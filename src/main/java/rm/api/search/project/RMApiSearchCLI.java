@@ -13,6 +13,7 @@ import java.util.stream.Stream;
 import static rm.api.search.project.CommanderFunctions.buildCommanderWithName;
 import static rm.api.search.project.CommanderFunctions.parseArguments;
 import static rm.api.search.project.api.ApiFunctions.buildApi;
+import static rm.api.search.project.util.Utils.toDate;
 
 public class RMApiSearchCLI {
     public static void main(String[] args) {
@@ -61,7 +62,7 @@ public class RMApiSearchCLI {
             System.out.println("Image: " + character.getImage());
             System.out.println("Episode: " + character.getEpisode());
             System.out.println("Url: " + character.getUrl());
-            System.out.println("Created: " + character.getCreated() + "\n");
+            System.out.println("Created: " + toDate(character.getCreated()) + "\n");
         }
     }
 }
