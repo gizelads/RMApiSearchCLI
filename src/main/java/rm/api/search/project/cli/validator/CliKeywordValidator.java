@@ -18,7 +18,7 @@ public class CliKeywordValidator implements IParameterValidator {
     @Override
     public void validate(String name, String value) throws ParameterException {
         if(!value.matches("^[a-zA-Z]+$")) {
-            System.err.println("Keyword: " + value + "is invalid, only letters allowed.\n");
+            System.err.println("Keyword: " + value + " is invalid, only letters allowed.\n");
             throw new ParameterException("Only letters are supported");
         }
     }
