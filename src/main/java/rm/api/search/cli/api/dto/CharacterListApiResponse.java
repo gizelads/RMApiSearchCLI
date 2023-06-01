@@ -8,7 +8,8 @@ import java.util.List;
 
 @Getter
 @ToString
-@EqualsAndHashCode(callSuper = false)
-public class CharacterListApiResponse extends ApiInfoResponse {
+@EqualsAndHashCode
+public class CharacterListApiResponse {
+    private ApiInfoResponse info;
     private List<CharacterApiResponse> results;
 }
