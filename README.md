@@ -25,3 +25,9 @@ And `<CHARACTER>` is the name of a Rick&Morty character.
 
 ### Example
 To search `female` characters named `rick` and `alive`, use: `.\rm-api-search-cli rick -s alive -g female`
+
+[//]: # (1.- Gradle -> Tasks -> distribution: distZip)
+
+[//]: # (2.- folder build -> distributions: rm-api-search-cli-0.0.1.zip)
+
+[//]: # (3.- extraer el .zip -> bin -> ejecutables)
